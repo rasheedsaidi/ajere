@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Yii 2 Basic Project Template
 ============================
 
@@ -90,3 +91,7 @@ return [
 **NOTE:** Yii won't create the database for you, this has to be done manually before you can access it.
 
 Also check and edit the other files in the `config/` directory to customize your application.
+=======
+# einsurance
+An online portal for Insurance Industry in Nigeria.
+>>>>>>> 22c341958101372b9b4af379b2a57305b45901c2
