@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # phpstorm project files
 .idea
 
@@ -34,3 +35,11 @@ protected/runtime/*
 protected/data/*.db
 themes/classic/views/
 >>>>>>> 22c341958101372b9b4af379b2a57305b45901c2
+=======
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+>>>>>>> 6144c122bf2bb8f33b283da70de2d076e1b526da
