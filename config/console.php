@@ -12,7 +12,7 @@ return [
     'controllerNamespace' => 'app\commands',
     'modules' => [
         'gii' => 'yii\gii\Module',
-    ],
+    ],       
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -26,6 +26,10 @@ return [
             ],
         ],
         'db' => $db,
+        'authManager' => [
+	       	'class' => 'yii\rbac\DbManager',
+	       	'defaultRoles' => ['guest'],
+	    ],
     ],
     'params' => $params,
 ];
